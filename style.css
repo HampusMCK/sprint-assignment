@@ -11,17 +11,46 @@
     height: 100px;
     text-align: center;
     font-size: 40px;
-    font-style: italic, bold;
+    font-style: italic;
     color: blue;
-    background-color: red;
+    background-color: rgba(255, 56, 56, 0.801);
+}
 
-    
+.header p{
+    padding-top: 20px;
 }
 
 .main{
+    height: 1150px;
+    background-image: url("img/Pasta-Chef.jpg");
+    background-position: center;
+    background-size: cover;
+}
 
+.main .center{
+    margin-left: 30%;
+    width: 40%;
+    height: 50%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 20px;
+}
+
+.main .center p{
+    padding: 15px 25px;
+}
+
+.main .center a{
+    color: lightblue;
+    text-decoration: underline;
+    font-style: italic;
 }
 
 .footer{
-
+    height: 150px;
+    background-color: rgba(169, 169, 169, 0.608);
+    text-align: center;
+    font-size: 14px;
+    padding-top: 50px;
 }
