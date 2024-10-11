@@ -47,10 +47,36 @@
     font-style: italic;
 }
 
+.main .center a:hover{
+    color: blue;
+    font-size: 22px;
+}
+
 .footer{
     height: 150px;
     background-color: rgba(169, 169, 169, 0.608);
     text-align: center;
     font-size: 14px;
     padding-top: 50px;
+}
+
+@media (max-width: 1000px){
+    .header{
+        height: 50px;
+        font-size: 20px;
+    }
+    .main{
+        height: 800px;
+    }
+    .main .center{
+        margin-left: 10%;
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .footer{
+        height: 50px;
+        font-size: 10px;
+        padding-top: 25px;
+    }
 }
